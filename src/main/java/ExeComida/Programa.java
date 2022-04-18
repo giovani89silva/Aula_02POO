@@ -11,8 +11,7 @@ public class Programa {
         Comida c1 = new Comida();
         Comida c2 = new Comida();
         Comida c3 = new Comida();
-        
-        
+                
         Scanner sc = new Scanner(System.in);
         
         String descricao;

@@ -8,6 +8,7 @@ public class Carro {
     private int Ano;
     private boolean temAirBag;
     private String Cor;
+    String setCor;
     
     //String setCor;
    
