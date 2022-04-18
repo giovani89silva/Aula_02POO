@@ -16,6 +16,6 @@ public abstract class Musico {
     */
     public void afinarInstrumento(){
         System.out.println(
-                "Eu Estou afinando o/a " + getNomeDoInstrumento());
+                "Eu EEstou afinando o/a " + getNomeDoInstrumento());
     }
 }
