@@ -6,7 +6,7 @@ public class Programa {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-        /*
+        
         System.out.println("++++++++++++++++++");
         System.out.println("FATORIAL RECURSIVO");
         System.out.println("++++++++++++++++++");
@@ -41,17 +41,15 @@ public class Programa {
         System.out.println("Informe o número FIB: ");
         fib = sc.nextInt();
         resultFib = Fibonacci.Fibonacci(fib);
-        System.out.println("Fibonacci de " + fib + " = " + resultFib);
-        
-        */
-                
+        System.out.println("Fibonacci de " + fib + " = " + resultFib);            
+               
         System.out.println("\n\n");
         System.out.println("++++++++++++++++++");
         System.out.println("CONTAGEM REGRESSIVA");
         System.out.println("++++++++++++++++++");
         
         int countDesc = 0;
-        System.out.println("Informe um número: ");
+        System.out.println("Por favor informe um número: ");
         countDesc = sc.nextInt();
         ContagemRegressiva countReg =
                 new ContagemRegressiva();
