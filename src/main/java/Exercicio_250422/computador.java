@@ -62,5 +62,12 @@ public class computador {
             this.bomParaJogo = false;             
     } 
    
+     public boolean isBomParaJogo() {
+        if ( capacidadeMemoria > 8 && capacidadeHD > 500)
+            return true;                 
+        
+        else 
+            return false;             
+    } 
 
 }

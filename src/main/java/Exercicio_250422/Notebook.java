@@ -3,7 +3,10 @@ package Exercicio_250422;
 public class Notebook extends computador {
     
     private float DurBateria;
-    
+
+    public Notebook() {
+    }
+        
     public Notebook(float DurBateria, String Marca, String Processador,
             float capacidadeMemoria, float capacidadeHD)
     
@@ -19,6 +22,8 @@ public class Notebook extends computador {
     public void setDurBateria(float DurBateria) {
         this.DurBateria = DurBateria;
     }
+    
+   
     
     
     
