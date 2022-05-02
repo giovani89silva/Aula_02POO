@@ -1,6 +1,6 @@
-package Exercicio_250422;
+package Exercicio_Computador_Notebook;
 
-public class Notebook extends computador {
+public class Notebook extends Computador {
 
     private float DurBateria;
 
